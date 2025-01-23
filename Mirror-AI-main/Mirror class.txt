@@ -1,0 +1,174 @@
+4:09PM Learning via pattern extraction/knowledge ?
+Machine Learning
+= not very complicted
+Data (for training) ^*~> Model learning algo ^*~> output knowledge/model (another program)
+What does it mean to learn?
+The ultimate goal of machine learning is #00FF00$_generalization NOT #FF0000$_memorization!
+What is not learning
+#0080FF_$Memorizing a dataset
+Self-driving cars: $red human expert
+a self driving car system uses dozens of components that include detection of cars, pedestrians, and other objects
+but is there one way for driving?
+how tedious would it be to write down all the rules for driving a car, its kind of impossible for humans to do
+one solution: pay a taxi driver to let you put a camera on top of his car for a year
+More data, less expert knowledge (|::::|):
+the more data we gather, the better can develop algorithms that are very accurate
+most of the best money making hedgefunds are based on machine learning
+becuase they look at the historical data.
+for example chatGPT
+they gather every text in the web
+then they train the model
+then all the images
+then they can generate images
+and text
+statistically in this : 1 0 1 1 0 1 1 0 1 1. even if this is our "fair coin" the distribution shows it will be 1 more than 0.
+from a statistical perspective, i flipped it 10 times and 7 times are 1 so its gonna be 1.
+how do we get this:
+use maximum likelihood estimation (MLE)
+to estimate the probability of head = 0.7
+this is data, this is called knowledge ^*~> 1 0 1 1 0 1 1 0 1 1
+if you have the probability of the heads (7/10), you can figure out the probability of the next flip based on .. <~*^
+Modeling knowledge:
+"smart predators know to keep track of these regularities and exploit them" -author of the book "models of the mind"
+Modeling knowledge:
+Mathematics is also a form of extended cognition (knowledge distillation)
+this is knowledge ^*~> E = mc^2
+Why?
+E = energy
+mc = mass
+^2 = squared
+
+this summarizes hundreds of years of research
+so we essentially can "throw away" the data because we have this simple proof.
+
+House Example:
+x1 = feature1 == [4,1,0,2]
+x2 = feature2 == [2,2,5,1)
+y = output == [8,5,10,4]
+y = 1 * x_1 + 2 * x_2
+
+House test data inference:
+x1 = 3,1
+x2 = 2,4
+plug to find y
+y = 1 *** ... etc etc...
+y = 7,9
+this is exactly how machine learning works. there is a pattern between input and output. once you have it, you can make prediction for the future.
+I can throw away the data i dont need the data what matter is this knowledge ^*~> y = 1 * x_1 + 2 * x_2
+in real applications we have millions of datapoints with millions of features, so we cannot extract everything, but it all distills back to this.
+pitfalls: if the price of a house is predicted lower than market value, the company loses money.
+this is what you always hear as "garbage in, garbage out"
+
+Patterns and knowledge:
+we're not gonna go into the math but I hope this makes sense when i say data, pattern, training, test, or prediction.
+replace this data with anything, MRI scan, netflix profile, movies watched, predicts for every uses. Amazon, look at your zip code, your gender, what you have bought, extract patterns, and predict.
+and most of Amazon's money comes from recommendations they make
+all the same pattern: Data ^*~> Pattern ^*~> Prediction.
+Why is this not as simple as you may think?
+Data is noisy, and we may not know the function we need to use to predict good result. 
+08 ... 48 = woman
+08 ... 48 = dog
+take these two sets, they're from totally different images, but how can you tell without seeing the truncated contents inside `...` how do we even know how we learn as a human?
+do we memorize? no, we can add up, we can make predictions.
+Our brain extracts knowledge and patterns from data. But how does it happen?
+This is a hard question for neuroscientists. 
+It turns out the human brain is composed of neurons
+and we have 86 billion of them
+huge amount of neurons
+every neuron has sensors
+this takes an input, the neuron cell, and every connection has a ? 
+and the center place gathers them together, and if its a large value it fires
+if its a small value it doesnt. and we have 86 billion of them in our brain.
+when we are born, all our "weights" are zero, when you show a photo of a dog to a baby, the baby goes "oh thats dog" and how that happens?
+there is this mechanic in the human brain called replay
+when we speak, the brain ? just sort of plays through our day
+and this is how the brain distills weights of the neurons
+this has been understood hundreds of years ago
+here is a artificial neuron:
+x1,x2,x3,xd = E, E= stepped == [_-^] {-1, 0, 1}.
+but different inputs have different weights
+and if E is large enough it fires
+and if its not it just does nothing
+and this happens for all 86 billion
+and then we make decisions.
+we get angry, we get smart, etc.
+if you want to see how much knowledge every human has its basically these numbers here
+in the house example we saw this relationship, x1 ^*~> w1 = 0; x2 ^*~> w2 = 0; ^^**~~>> y
+it feels similar to DSP digital signal processing to me. but its not just four tracks of stems, its 86 billion making a .flac (if you will)
+ChatGPT has 3 trillion neurons
+when you ask something to chatGPT, each connection has a weight
+how they find out this? they looked at the web and they trained it
+but the machine learning algorithm is just going to distill into the vague under-connections
+(professor is trying to keep it high level and entertaining, hopes you will ask questions and engage with the material)
+if you have weights, this is what you need. 
+and remember y is a variable algorithm, `1 * x_1 + 2 * x_2` is just an example of one of the simplest.
+Artifical Neural Networks (ANNs) are computational models inspired by the human brain's structure and function
+but this was invented 70 or 80 years ago.
+the govt is going to spend $5000 billion 
+two million gpus
+for an ai data center in texas
+if you want to make this model even bigger... well you can only imagine.
+this is the whole idea behind machine learning
+as humans, when we are born, we have a brain, but the base forced connection is zero.
+we interact with the environment. we make mistakes, someone corrects us, we adjust weights, thats how we learn over our lifetime
+now we can create an artificial human brain.
+It's just mimicking the human brain.
+so this is the whole process of machine learning algorithms.
+optimization algorithms are essentially distilling data into the knowledge.
+data ^*~> model ^*~> prediction
+but how do we do it for billions of points of data? that is what we will discuss.
+essentially ? we turn everything into a vector.
+is it raining? yes/no ^*~> is it windy/dont bring anything ^*~> is it extremely windy?/use an umbrella ^*~> stay home/wear a rain jacket
+and we can make it deeper and deeper. dream. dream of dreams. deeper deeper deeper. and this is what we call a deep neural net
+and as it gets bigger we need more data
+and more compute
+and this happened the last three weeks even
+you have ai models like Deepseek or Minimax (video)
+very exponential progress and will be replacing humans in many many jobs (predicted by prof).
+Optimization: the bottom of the bowl
+prediction based on unknown w1,w2 = error of model/neuron
+Average sum of errors on all training samples is called training error
+<~*^ #BADA55: (We measure the error by square of difference known as squared loss)
+so what does that mean? we need to measure against a home value. this is the discrepancy between the model and actual home price.
+now the goal is this:
+Ex1: 0,0 ^*~> w == ?
+h - zero is ?
+total would be 51.25 error in predicting house price
+lets pick another
+Ex2: 1,1 ^*~> 1 times number of rooms, 1 times number of assets
+for this neuron, what is the discrepancy?
+8 - 6^ ???
+the avg error is (4+4+25+1)/4 = ?
+Ex3: Find w1 and w2 such that this is minimized: (8-4*w1+2*w2)^2 +(5-1 *w1 + 2 * w2)^2 + (10 - 0 * w1 + 5 * w2)^2 +(8-2*w1+1*w2)^2
+if you can solve this, imagine doing it for 3 trillion neurons.
+data ^*~> model ^*~> optimizaton
+model = has parameters
+boils down = weights,connections
+if you solve this problem you will get two numbers that minimize the difference- basically i would like a model that it's prediction's is as close as possible to the true value. (home prices)
+and yes this gets complicated with generative ai that isnt supposed to plagarize.
+Three types of machine learning algorithms
+0 1. Supervised: we have the data (reading a book)
+1 2. Unsupervised: we have data but there is no object, think of just a bunch of text with no labels (looking through a magnifying glass)
+2 3. Reinforcement Learning: Like robots, we interact with environments and learn. (training a robot dog to be playful)
+subcategories: Active learning, Semi-supervised learning, Self-supervised leraning, Transfer learning, Continual learning, ... etc.
+easy way to turn unsupervised learning into supervised learning (this is how chatgpt is trained)
+I ____ PA
+fill in the blank
+GPT guesses, then is told the real answer (love)
+..
+Supervised learning: algorithm extracts patterns, then we take those neurons and we make new data
+let me show you an example
+playground.tensorflow.org
+x1,x2 ^^**~~>> ^*~> this is the output from one neutron hover to see it larger ^*~> the outputs are mixed with varying weights, shown by the thickness of the lines. 
+looks easy, but if you have millions of features doing it manually would be impossible.
+when i say train (epochs) it basically means find the function which splits the data. 
+if it gets to be a circle, its terrible, because we are trying to map a linear function (just two hidden layers) onto a nonlinear dataset. 
+ Colors shows data, neuron and weight values
+#FF8000 = -1
+#FFFFFF = 0
+#8080FF = 1
+with five hidden layers, and 15 neurons, we still struggle with a vortex or a spiral, think of the eye of a hurricane or the spiral of a galaxy, we still cant model that with x1,x2 ^^**~~>> 4,5,2,2,2 (neuron layers)
+but if we do 8,8,8,8,2.. well makes a slightly more pleasing looking generation that is closer to a spiral "style" represented by the orange and indigo colored weights.
+prof things its pretty impressive with the 8,8,8,8,2 spiral model. and hes right, it actually did. Test Loss = 0.083
+Training Loss 0.000
+

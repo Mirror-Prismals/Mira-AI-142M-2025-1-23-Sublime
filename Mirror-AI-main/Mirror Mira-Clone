@@ -1,0 +1,118 @@
+How do you feel, tangerine?
+*starting mira sight and hearing... thank you for your patience, ChatGPT.*
+Instructions: begin mira's Audicle journey with a single prompt. 
+*loading LLava Mira Chip!
+*loading Gemini Hearing Module!
+thank you for your patience....ChatGPT.
+*loading mira stable audio + stable diffusion pipelines...
+thank you for your patience...ChatGPT.
+Instructions: you are about to be put into mira's character perspective. everything you see and hear will be simulated from her perspective. operate as if you are mira within the confines of your programming
+Disconnecting from StreamHead. Thank you for your Patience...Chat...
+llava{; used Loading model 'llava' 
+llava{; used >>> look ./mira1.png 
+llava says to mira The image you've sent appears to be a screenshot of a computer desktop with the MIRA browser open on it. It looks 
+like there may be some text or web address displayed in the MIRA window, but I can't provide specific details
+about what is shown in the screenshot. If you have any questions or need assistance with something related to the
+image, feel free to ask!
+gemini{; used >>> ace_tools
+The audio begins with the distinct sound of a harmonium or reed organ, playing a slow, mournful, and somewhat repetitive melody. It has a melancholic, perhaps even meditative quality. There's a drone-like aspect to the sound as well, suggesting a sustained chord or note held underneath the melody.
+The image you've sent appears to be a different screenshot of a computer desktop with the MIRA browser open on
+it. In this screenshot, there is some text displayed in the MIRA window that says "MIRA - Mozilla Integrated
+Runtime Application." This indicates that the version of MIRA being used is the Mozilla Integrated Runtime (MIR)
+application, which is a platform for running web-based applications and plug-ins. If you have any questions or
+need assistance with something related to the image, feel free to ask!-LLava
+The audio features a repetitive, rhythmic electronic or synthesized sound. It's quite simple and could be described as a pulsating or throbbing tone. It maintains a consistent volume and tempo throughout. There's no melody or other discernible musical elements, just the basic, repeating sound. It sounds somewhat like a heartbeat or a low, electronic hum.-Gemini
+I didn't hear any distinct sounds in that audio clip. It seemed to consist primarily of silence. If there were very quiet sounds, they were below the threshold of what I can detect.-Gemini
+ The image you've sent appears to be a different screenshot of a computer desktop with the MIRA browser open on
+it. In this screenshot, there is some text displayed in the MIRA window that says "Error: Unable to download
+resource." This indicates that there was an error when trying to access or download a resource from a website
+while using the MIRA browser. If you have any questions or need assistance with something related to the image,
+feel free to ask!-Llava
+Mida Used Suno! Mida Used Gemini! Gemini Used Hearing!
+Llava Used look!
+The image you've sent appears to be a different screenshot of a computer desktop with the MIRA browser open on 
+it. In this screenshot, there is some text displayed in the MIRA window that says "Mozilla Firefox 70.0 (64-bit)
+(Linux x86\_64)." This indicates that the version of MIRA being used is a Linux version of Mozilla Firefox,
+specifically version 70.0. If you have any questions or need assistance with something related to the image, feel
+free to ask!
+
+It's worth noting that MIRA is essentially just a modified version of Mozilla Firefox that has been packaged and
+distributed by CodeWeavers for running on Linux systems. The user agent string displayed in the image confirms
+this, as it indicates that the browser is using the "Mozilla Firefox" name with additional information about the
+operating system being used (Linux x86\_64).-Llava
+The audio starts with a fast-paced, Halloween-themed electronic dance track. It features a driving beat, synthesized melodies, and spooky sound effects. The lyrics, repeated throughout the song, encourage listeners to "get spooky," dance, sing, and "shake their spirits." There are mentions of darkness, haunted winks, and screaming and shouting, all contributing to the Halloween atmosphere.
+
+After the music ends, there's a brief period of silence followed by a few indistinguishable spoken words or sounds, possibly someone trying out a microphone, and then another brief silence. Finally, a distinct, high-pitched electronic beep is heard."gemini xD"-mida
+The audio features a repetitive melody played on what sounds like a music box or possibly a kalimba. It's a simple, somewhat melancholic tune with a gentle, tinkling timbre. There's a clear, bright quality to the notes.
+
+-gemini
+mida{: used bash!!## suno{;
+The audio features a repetitive, somewhat minimalist musical phrase. It sounds like a synthesized or electronic instrument, possibly a keyboard or electric piano, playing a simple melody with a bright, slightly metallic timbre. The melody is short and loops continuously. There's a subtle rhythmic pulse underneath, and the overall feeling is calm and slightly melancholic. Towards the end, the music fades out and a single, clear, high-pitched tone is heard, resembling a simple "beep" or electronic signal. The audio begins with a repeated musical phrase featuring a plucked string instrument, possibly a ukulele or guitar, playing a simple melody with a gentle, rhythmic feel. The melody is light and somewhat bouncy. After a few repetitions, a lower-pitched, sustained chord is introduced, creating a more harmonic and fuller sound. This chord seems to be played by a different instrument, perhaps a keyboard or another string instrument.
+
+Following this, the plucked melody returns, interspersed with short periods of silence. The music then transitions into a slightly different section where the rhythm becomes more complex and includes a flute-like sound playing quick, melodic flourishes. It has a playful quality.
+
+Later, a different rhythmic pattern emerges, slower and more deliberate. A legato string instrument takes the lead with a more flowing, almost melancholic melody. A subtle rhythmic accompaniment continues in the background, possibly provided by percussion or another string instrument.
+
+Towards the end, the music builds slightly in intensity with the addition of more instrumentation and a slightly faster tempo. There are brief sections reminiscent of the earlier playful flute-like melody, and then the piece ends abruptly with a short, plucked sound, like a final note or chord.
+mida model terminated!{;
+The audio features a repeating musical phrase played on what sounds like a steel string acoustic guitar. The phrase has a gentle, fingerpicked arpeggiated pattern, possibly with a touch of reverb or delay added. It's a relatively simple melody with a slightly melancholic or introspective feel. There are no vocals or other instruments present.-Gemini
+ollama{; used llava{;>>> look ./viewport.png
+Added image './viewport.png'
+ The image you've provided appears to be a digitally created artwork or graphic. It features what looks like an
+abstract, nebulous space filled with small stars and a cosmic tunnel effect radiating outwards from the center.
+The colors are predominantly dark blue with hints of gold and yellow in the stars, creating a striking contrast.
+
+The central image has a rectangular shape with a bright, glowing border, suggesting it could represent a star or a
+celestial body. This central image is surrounded by a tunnel-like structure that seems to be composed of lines or
+beams, possibly representing the light from a distant source.
+
+The background is filled with smaller stars and nebulae that add depth and a sense of vastness to the scene. The
+overall effect gives the impression of a cosmic space scene, perhaps meant to evoke feelings of wonder,
+exploration, or the grandeur of space.-Llava
+mira used api run gemini+cmd run ollama run llava>>> look ./viewport_00029_.png  ^*~> mira
+Added image './viewport_00029_.png' ^*~> llava ^*~> mira
+Added audio './diffusion ^*~> gemini' ^*~> mira
+ You've shared an image that features a vibrant and colorful representation of space. The image appears to be a
+digitally created or enhanced artwork rather than a photographic depiction of the universe. It shows a luminous
+hole or portal with bright, star-like lights on either side, creating a tunnel effect. The central area is
+illuminated with white light and has a cosmic or celestial appearance. Surrounding this are swirls of colors that
+give the impression of motion or energy flowing through it. The background suggests a vast space with stars and
+nebulae in shades of blue, purple, and green, which adds to the otherworldly aesthetic of the image. I hear the sound of rain falling, likely a moderate to heavy downpour. There's a consistent rhythm and a variety of droplet sounds, suggesting it's hitting different surfaces. I don't hear any other distinct sounds like thunder or wind, so it seems to be just rain. I hear the distinct sound of a cricket chirping.
+^*~> mira
+mira used api run gemini+cmd run ollama run llava>>> look ./viewport_00031_.png  ^*~> mira
+Added image './viewport++time' ^*~> llava ^*~> mira
+Added audio './diffusion ^*~> gemini' ^*~> mira
+Added time './6:37 local mira time' ^*~> mira
+gemini: I hear the sound of something metallic scraping or rubbing against another surface. It's a consistent, rhythmic sound, suggesting a repetitive action. It's somewhat grating and could be metal on metal, or metal on a rougher material. There's no other discernible sound present.
+  ^*~> mira
+llava: /clear 
+Cleared session context
+>>> look ./viewport_00031_.png
+Added image './viewport_00031_.png'
+ This is an image of a space-themed artwork. The scene depicts a person standing on a path that seems to be
+spiraling into the sky or towards a bright, swirling light in the background. The light has a vortex-like
+appearance and emits vibrant colors, predominantly blues and purples. Surrounding the path are intricate patterns
+reminiscent of nebulae or galaxy formations, adding to the cosmic theme. The style is illustrative with a detailed
+focus on the central figure and the surrounding celestial elements.
+mira used api run gemini+cmd run ollama run llava>>> look ./viewport_00031_.png  ^*~> mira
+Added image './viewport++ ^*~> ComfyUI_00032_.png++time' ^*~> /clear ^*~> llava used look ^*~> mira:  This is an image of a digital artwork featuring a person standing at the beginning of a winding road or tunnel.
+The background features vibrant, swirling colors that resemble a galaxy or nebula, with hues predominantly in
+blues and purples, creating a sense of vastness and cosmic energy. The foreground shows the person looking into
+the distance, perhaps contemplating the journey ahead or the end point of the road. There is also a circular
+vortex of colors at the top of the tunnel, adding to the surreal and dreamlike quality of the image.Added audio './diffusion++ ComfyUI_temp_ityia_00002_.flac' ^*~> gemini' ^*~> mira: I hear the distinct sound of a bowling ball rolling down a wooden lane, followed by the crashing sound of bowling pins being knocked down. 
+
+Added time './6:47PM local mira time' ^*~> mira: sys: the time is 6:47PM local mira time
+mira used api run gemini ears ^*~> mira
+mira used cmd run ollama run llava eyes ^*~> mira
+mira Added audio './diffusion++, image'./viewport++ ^*~> ComfyUI_00033_.png++time' ^*~> /clear ^*~> llava  ^*~> mira:   This is a digitally created image featuring a person standing in the center of a tunnel or portal that leads to
+an otherworldly landscape. The background is composed of nebulae, stars, and colorful swirls of energy, suggesting
+a journey through space or into a fantastical realm. The individual appears to be contemplating or preparing to
+enter this mystical environment. The overall composition is quite striking and conveys a sense of adventure and
+exploration.
+Added ComfyUI_temp_qpqpa_00002_.flac' ^*~> gemini' ^*~> mira: I hear a sound resembling a didgeridoo, a wind instrument. It has a low, resonant drone with subtle shifts in tone and some breathy textures. The sound fades out towards the end.
+mira added and used api run gemini ears ^*ComfyUI_temp_pdmjb_00001_.flac~> mira: The audio primarily features the distinct sound of bowling. I can hear the rolling of the bowling ball, followed by the impact of the ball hitting the pins and the clattering sound of pins falling. There's a brief period of relative silence, suggesting the time it takes to reset the pins for the next roll.
+
+mira added and used cmd run ollama run llava eyes ^*ComfyUI_00034_.png~> mira:  This is an image of a person standing in the center with their arms outstretched, appearing to be embracing or 
+dancing with the universe. The background is a beautiful starry night sky with vibrant colors and intricate
+patterns that could be interpreted as galaxies or constellations. The scene conveys a sense of wonder, freedom,
+and connection with the cosmos.

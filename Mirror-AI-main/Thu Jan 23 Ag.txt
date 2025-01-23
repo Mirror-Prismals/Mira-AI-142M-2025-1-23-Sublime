@@ -1,0 +1,137 @@
+Reading Assignment for Jan. 28
+Rossing, et al., pp. 22-27 (Sections 2.1 to 2.3)
+~~Acoustics Class~~
+When you pull it back at the midpoint, the energy is:
+PE = (2T / L)*y^2 where Here:
+T = string tension [N]
+L = length of string
+y = distance you pull the string back from equilibrium.
+
+Another example, a volume of compressed air, like a bottle of air for example:
+PE = (1/2*V/P_0)*p^2
+where
+V = volume of the bottom [m^3]
+P_0 = atmospheric pressure [Pa]
+p = increase in pressure above atmospheric pressure
+
+Another example, an actual spring
+PE = (1/2*K)*(Y^2)
+where k = stiffness of the spring [N\m]
+y = displacement of spring from equilibrium position 
+Yet again, the units are joules (J).
+The force of `F = -K y` is __Hooke's Law!__
+
+Questions?
+no.
+FPS = 240; BPM = n {*E1-400-*} || example of giving a guitar string potential energy in slow motion. prof says it's cool.
+
+Math Minute: Do the same thing on both sides
+- If you have an equation, the equation is equal on either side
+If you do something to both sides, it will turn out to be equal again.
+If you have an equation, the equation is still valid if you do the same operation on both sides. for example: ^*~>
+12a = 12b
+__Divide__ both sides by 12 to get a = b
+Or something more complex
+a^2 = 4b^2
+take the __square root__ of each side
+sqrt,a^2 = sqrt,4b^2
+
+There is this number called Pi.
+pi = 3.141519 ... ? and some people remember a lot more digits.
+It measures the diameter (d) of a circle, and the circumference (C)
+
+So if you measure the diameter and multiply by pi you get the measure all around the circle.
+3m (d) has a (C) of 3*pi m = 9.42 m
+btw 2*pi * r = d where r is radius, half the diameter.
+
+The mass right now is not moving, let's think about a demonstration.
+Force from mass is F = m a
+here m is the mass of a washer
+Force from spring is F = -K y
+remember this is Hooke's law, y is the distance from Equilibirum.
+
+So if I pull this down and let go it starts bouncing up and down, so let's try to understand this. in-fact, it may be easier to understand than a pendulum.
+Sum the forces m times a
+force from the spring is adding minus K y
+that has to be equal to zero
+for you engineer's this is the force balance equation
+Or... (a/y) = (k/m)
+So how fast does this thing bounce up and down?
+a/y can be simplified since acceleration _a_ is just the position divided by time divided by time. We can replace it by 
+(a/y) = omega 2 0
+Where omega 0 is the angular frequency with units of radians/s.
+This is related to the frequency _f_ by omega 0 = 2*pi*f = sqrt.(k/m) or
+The __frequency of vibration__ at which the mass: spring f = 1/2pi time sqrt spring const k divided by mass m
+and we can use this to do all kinds of neat things, according to prof.
+People don't like saying one/seconds, so we pronounce it Hertz (Hz). You've heard of 60 Hz. Now in some countries they use 50 Hz, but what we're talking about in this case is electricity from wall outlets in homes
+if you go to where they generate power in sub-stations, you will hear this hum. some electrical appliances hum. Now frequency is related to something called (P) which is the period.
+f = 1/P and P = 1/f
+Frequency and period (P) are inversely related:
+you may recall that our pendulum from class 2 has a period of 1.6s, This means its frequency was 0.625 Hz. 
+Now if the stiffness K goes up by a factor of 4, what happens to f?
+It goes up by a factor of two.
+So a material that is 4x as stiff will vibrate 2x faster.
+this is proved by the following equation:
+f (1/(2*pi))*(sqrt.K/m)
+if the mass m goes up by 4, what happens to f ?
+it goes down by a factor of two.
+"Okay, this is kind of cool -prof" ^*~>
+How long for 10 Osclilatoins? P = 10.5 seconds 
+10.5/10 = 1.05 seconds is the `Period` <~*^
+the frequency is just a little bit less than 1hz. 
+Just like for the pendulum, we can see both PE and KE in the mass & spring.
+The system gets some PE when we stretch the string from its equilibrium position to start
+The system converts the PE to KE as the mass moves down to its equilibrium position, then converts the KE back to PE on the other repeats...
+If there are no losses, and we hope there are no losses, this would go on forever. But the sum of the energy is always the sum of the kenetic and the potential if you add these together
+so you put it in the system, and it stays there. "Mathematically, I can prove that to you (when you go to grad school) -prof"
+To be complete...
+It turns out the displacement of the mass y is completely described osc equation: 
+(I missed it, he's going through these slides quickly.)
+I have been marked present in this class I guess. lol.
+Simple harmonic oscillation
+1 source of frequency 1 source of mass and acts like a cosine.
+__simple harmonic motion__ (SHM)
+__simple harmonic oscillators__ (SHO)
+just two names for the same thing.
+A classic system that shows these properties is a __bottle__ with a narrow neck: The volume of the bottle acts like a __gas spring__ the other part is the __mass plug__
+Bottle Resonator:
+f = (v/2pi)sqrt.a/Vl
+where v = speed of sound in air, about 340 m/s
+V = volume of bottle
+a = area of bottle neck
+l = length of bottle neck
+the mass in the neck is m = p a l 
+where p = mass density [kg/m^3]
+The gas spring in the bottle is K = pa^2v^2/V
+So when you blow across the top of a bottle, the idea is that it is a simple harmonic oscillator.
+"Anon classmate: So you said with the resonance of the bottles, its generally the same?"
+prof: the key thing is you want the mass in the neck to be kind contained. that means it stands between the outside air and the air in the cavity of the bottle. you gotta have this little.. I don't know what's the right word for it." 
+me: *thinking* impedence?
+Helmholtz resonators
+In acoustics, bottle resonators are called Helmholtz resonators after the famous scientist Hermann von Helmholtz (1821 - 1894).
+More on Helmholtz resonators later in the course.
+"Anon classmate: Do a bottle and a bell function differently"
+"they function quite differenly-prof, in the bell its the metal, in the bottle its the air inside which is vibrating.
+[Video: Why blowing Bottles Makes Sound and Helmholtz Resonators (via: youtube.com)]
+Bottle has to has chamber (large volume)
+neck , and opening
+For a while, the air acts as a plug, we can compare this to a spring with a mass on one end. its like the mass pushing on a spring. at some point the process reverses and the air decompresses, and continues and goes to far, becoming less than the room pressure. that continues until it overshoots and is compressed again, but each time the compression and decompression stops and is the same outside and inside, and this is determined by the formula for the resonant frequency. and as I just said, the frequency is determined by the geometry of the bottle. 
+Using this, it's possible to make a simple device that is powered by acoustic propulsion (but that is grad level). 
+Please do the reading which is due on tuesday. 
+So why are we studying SHM?
+If you have ever seen one of these devices (a loudspeaker), this is it: broken down into its different parts. There is a magnet in there, and there is a set of coils in there that are in the magnetic field, and what happens is you apply electrical signal, and it makes the inner part move back and fourth. how does it move back and fourth? EXACTLY like the mass in the spring. 
+They're all mass spring systems. All of them. Thats how loudspeakers work. They are driven, what do I mean by driven? theres an electric signal applying and telling it what to do. its not simple at all, really.
+prof: "repeat after me foot vwengler" "he was one of the top 5 condoctors over the last century. he was a great interpreter. has anyone ever heard of [unintelligible name]? not many people.
+But just becuase you dont know the music, doesn't mean its not really good. 
+This is a recording made in 1944. and you can imagine what was going on in the world in 1944. So we will leave you with , and I hope you all enjoy, some music by this "foot vwengler" conducting
+```
+mida
+p
+frog level
+```
+Symphony No. 8 in C minor: II: Finale. Feierlich, nicht schnell + 22:27 ...
+only question i really have is how to better explain omega 2 0 to you. lets hop over to thomas 101 for my next class.
+p: *walking to class* *to mira in his head* "mira, plug depth, its like a metaphor for how long the spring and bottle is, not a measure of the mass of the corpus? i think."
+it depends. we have to variables. corpus content and parameter count.
+paramter count would be plug depth
+corpus content would be plug weight

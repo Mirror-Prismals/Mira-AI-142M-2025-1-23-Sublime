@@ -1,0 +1,104 @@
+explain how you would notate a song in mida
+just use basic non explicit syntax, only operators you need are *#b-~.*
+this is bad, it makes mida seem more complex than it is. 
+ *C4~E4~G4*  *A4~C5~E5* *G4~B4~D5* *F4~A4~C5* 
+this is really all you need, its self documenting.
+write a daw in p
+you can use mida to script it
+i like it- a lot, the mida code looks so good, something about the no intent num lines still is endlessly satisfying 
+its kind of like a meme, like “mida was here 
+
+{; || // |> \L\*\ #@ \L\*\ ;}
+
+i love it. bring on the memes. give me your best meme operator and ill add it to
+
+what is the operator
+
+thats more of a special token, i was looking for an actual operator that uses mostly symbols and does something math or music related abstracts it away
+try to avoid keywords 
+
+but otherwise its a great idea 
+
+// \L\*\^v^~~\L\*:
+i love it!
+this would be the noise operator and distortion operator 
+mida
+p
+from self import #midaVibes:
+|| here is my take:
+// \`L\*\`^v^~~\`L\*`: *^~> f distort() {int a = 1, int b = 2} ^*~> v out() {}
+!call <~*^ distort(0,18)
+# out: list of two random numbers 1-18
+thank you, i tried to embrace p’s serious side and midas high level control scheme 
+here is how i would do that program in one line
+
+// \L\*\^v^~~\L\*: = distort(1,2) *^~> [0…?!…18] | print(“distort”)
+here is how i would do that program in one line
+
+// \L\*\^v^~~\L\*: = distort(1,2) *^~> [0…?!…18] distort() <~*^
+yes what i tried to do was embrace polymorphism and prototype without making it complex 
+^*~> prototype assign()
+polymorph call() <~*^
+yes ! so you can do this
+*^~> f methodMyUniqueMethod(int a = 1 + int b = 2)
+f methodMyUniqueMethod <~*^
+|| function call and function declare are exactly the same syntax 
+f name()
+but you use ^*~> or <~*^ depending!
+omg this is perfext
+
+*^~> f addNumbers(int a = 3, int b = 5)
+  return a + b
+f addNumbers <~*^
+
+*^~> f multiplyNumbers(int a = 2, int b = 3)
+  return a * b
+f multiplyNumbers <~*^
+
+yeah! this is a perfext example of why something like this is super important to be able to do quickly and non confusingly
+mida is genius:
+
+*^~> f processNumbers(int a = 5, int b = 3, int op = 0)
+  if op == 0
+    return a + b
+  else if op == 1
+    return a * b
+  return 0
+f processNumbers <~*^
+
+this is everything i was hoping for, and this is the pinnacle youre right! to clarify for those who may not be good at programming: why this is cool is that we only have one function name processNumbers() , everything else is just a named variable, yet we can multiply or add, we dont need two function names, and this is rather huge to be able to do this this easily and clearly
+*^~> f processNumbers(int a = 5, int b = 3, int op = 0)
+  if op [0…?!…3]
+    return a [+,*,-,/ ] b
+f processNumbers <~*^
+|| heres my idea for compacting the code even further with the same function!
+*^~> f processNumbers(int a = 5, int b = 3, list op = [0…?!…3], loop op {return a +-/* b})
+f processNumbers <~*^
+|| heres my idea for compacting the code even further with the same function! its a bit out there but technically i like this better than other options
+*^~> f processNumbers(int a = 5, int b = 3, int op = 0)
+  if op [0…?!…5]
+    return a [+,*,-,/ ,^,% ] b
+f processNumbers <~*^
+
+this is better tho
+   (|::::|): {; || // |> \L\*\ #@ \L\*\ ;}
+   \mida 
+      f ^*flipText: {; 
+         inputText = "Hello, World!";  // String to be flipped
+         flipped = inputText[::-1];    // Reverse the string
+         ,^,flipped;                   // Return flipped string
+      };\
+\
+   ##!!
+
+ahh added the missing comma
+i love this above style. can you make a super big program i in mida/p like a hex color library 
+the syntax is so good.. i just think im dreaming
+i particularly enjoy the \ at the beginning and end, the good and bad server heads up top, the satisfying way it’s really clear when somethings being called and what lines are actually functions and not just variables
+how about an idea for using the transformers library in a p program
+yes loveit. p is all about letting you by python when you want to, thats what the \* #@ \* part of the server header represents 
+
+
+
+
+

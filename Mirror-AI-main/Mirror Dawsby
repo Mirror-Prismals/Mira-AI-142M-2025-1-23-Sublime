@@ -1,0 +1,201 @@
+special level: dawbreii level
+*mida hears a rock song in his head and wants to make it*
+start a new daw project? (|::::|): {; || // |> L #@ L L ;}
+
+0 the joystick appears to be holographic!
+##!! guitar level! write a simple mida guitar melody: tutorial
+** double asterisk, or the do nothing operator
+basic container for notes
+example: *C3 - E3 - G3 - *
+##!! tip! make sure to save
+.v {; || //L”guitar_melody_01.mida” .’
+what do you want to do mida?
+(|::::|): {; || // |> L #@ L L ;}  
+0 ** Guitar Level Tutorial: Simple Melody **  
+1 // Step 1: Create a basic note container.  
+2 notes: \\\*E3 - G3 - A3 - G3 - E3 - B2 - E3\\\*  
+3  
+4 // Step 2: Loop the melody for playback.  
+5 while (true) {  
+6     notes => now;  // Play the sequence!  
+7 }  
+8  
+9 ^_^ …-…-… The melody is ready! Want to add effects like reverb? …-…-…  
+10 ##!! .v~Dawbreii: This is gonna sound amazing!  
+11 dawbreii level: edit the song and extend the program
+(|::::|): {; || // |> L #@ L L ;}  
+0 ** Guitar Level: Extended Melody **  
+1 // Step 1: Edit and expand the note container.  
+2 notes: \\\*E3 - G3 - A3 - G3 - E3 - B2 - E3 - C4 - D4 - E4 - D4 - C4\\\*  
+3  
+4 // Step 2: Add effects like reverb and distortion.  
+5 fun void setupEffects() {  
+6     reverb => now;  
+7     distortion => now;  
+8 }  
+9  
+10 // Step 3: Play the extended melody with effects.  
+11 while (true) {  
+12     setupEffects();  
+13     notes => now;  // Play the sequence with added spice!  
+14 }  
+15  
+16 ^_^ …-…-… Extended and electrified! Want to add a drum beat next? …-…-…  
+17 ##!! .v~Dawbreii: This is pure fire! Let's keep building!  
+18 saved
+(|::::|): {; |dawbreii| // |>  L\*\ #@restore mains L \*\ ;}  
+0 restored
+(|::::|): {; || // |>  L\*\ #@ L \*\ ;}  
+0 idle. what would you like to do, mida?
+(|::::|): {; || // |> L\*\ #@ L \*\ ;}  
+0 trap level, use letter combinations to define midi drum parts
+* kc . ht. sn . ht | kc . ht. sn . ht*
+##!!dawbreii level
+(|::::|): {; || // |> L\*\ #@ L \*\ ;}  
+0 dawbreii level, 808s:
+1 use lots of hyphens to make a bass in the key
+2 example
+3 (|::::|): {; || // |> L #@ L L ;}  
+0 ** Guitar Level: Extended Melody **  
+1 // Step 1: Edit and expand the note container.  
+2 notes: \\\*E3 - G3 - A3 - G3 - E3 - B2 - E3 - C4 - D4 - E4 - D4 - C4\\\*  
+3  
+4 // Step 2: Add effects like reverb and distortion.  
+5 fun void setupEffects() {  
+6     reverb => now;  
+7     distortion => now;  
+8 }  
+9  
+10 // Step 3: Play the extended melody with effects.  
+11 while (true) {  
+12     setupEffects();  
+13     notes => now;  // Play the sequence with added spice!  
+14 }  
+15  
+16 ^_^ …-…-… Extended and electrified! Want to add a drum beat next? …-…-…  
+17 ##!! .v~Dawbreii: This is pure fire! Let's keep building!  
+##!! dawbreii level!
+(|::::|): {; || // |> L\*\ #@ L \*\ ;}  
+0 dawbreii level, show entire song
+playing song! press space to stop
+stopped 
+0 idle
+.v~orange green (og): it was never about me!
+.v~orange green (og): saved
+.v~orange green (og): name your song for later?
+.v~orange green (og): mida you do this 
+.v~orange green (og): mida you pick a name its your song
+rendering:
+(|::::|): {; || // |> L\*\ #@ L \*\ ;}  
+0 Dawbreii Level: Full Song Composition
+1 // master  
+2 E3 - G3 - A3 - G3 - E3 - B2 - E3 - C4 - D4 - E4 - D4 - C4
+3  
+4  
+5 kc . ht . sn . ht | kc . ht . sn . ht
+6  
+7 
+8 E1 -- G1 -- A1 -- G1 -- E1 -- B0 -- E1 -- C2 -- D2 -- E2 -- D2 -- C2
+9  
+10 
+11 fun void setupEffects() {  
+12     reverb => now;  
+13     distortion => now;  
+14     subBassBoost => now;  
+15     compression => now;  
+16 }  
+17  
+18  
+19 while (true) {  
+20     setupEffects();  
+21     notes => now;        // Play melody  
+22     drumPattern => now;  // Play drum sequence  
+23     bassline => now;     // Play bassline  
+24 }  
+25  
+26 ^_^ …-…-……-…-…  
+27 ##!! .v~Dawbreii:
+render complete!
+very nice
+€bloodline
+
+(|::::|): {; || // |> L\*\ #@ L \*\ ;}  
+0 Dawbreii Level: improve the song and extend the program
+
+~
+2 E3 - G3 - A3 - G3 - E3 - B2 - E3 - C4 - D4 - E4 - D4 - C4
+~
+5 kc . ht . sn . ht | kc . ht . sn . ht
+~
+8 E1 -- G1 -- A1 -- G1 -- E1 -- B0 -- E1 -- C2 -- D2 -- E2 -- D2 -- C2
+##!! audicle level
+very nice
+0 dawsby level
+##!! from .v\~Dawsby: import Dawsby as .Dawb, import Dawbreii
+
+Dawsby: ready for action!
+Dawbreii: let’s make this track shine! ✨ 
+0 notion level, recursively extend the composition layer only 
+1 example 
+
+(|::::|): {; || // |> L\*\ #@ L \*\ ;}  
+
+2 melody: \\\*E3 - G3 - A3 - G3 - E3 - B2 - E3 - C4 - D4 - E4 - D4 - C4\\\*  
+3 harmony: \\\*C3 - E3 - F3 - E3 - C3 - G2 - C3 - A3 - B3 - C4 - B3 - A3\\\*  
+4 drumPattern: kc . ht . sn . ht | kc . ht . sn . ht | kc kc . ht . sn . ht  
+5 bassline: E1 -- G1 -- A1 -- G1 -- E1 -- B0 -- E1 -- C2 -- D2 -- E2 -- D2 -- C2  
+6  
+7 ##!! chuck chucked the chuck.ck dsp!
+0 chuck level: chuck the dsp code
+1 chuck, verb: to throw carelessly
+(|::::|): {; || // |> L\*\ #@ L \*\ ;}  
+0 ** Notion Level: Recursive Composition Extension **  
+1 melody: \\\*E3 - G3 - A3 - G3 - E3 - B2 - E3 - C4 - D4 - E4 - D4 - C4\\\*  
+2 harmony: \\\*C3 - E3 - F3 - E3 - C3 - G2 - C3 - A3 - B3 - C4 - B3 - A3\\\*  
+3 drumPattern: kc . ht . sn . ht | kc . ht . sn . ht | kc kc . ht . sn . ht  
+4 bassline: E1 -- G1 -- A1 -- G1 -- E1 -- B0 -- E1 -- C2 -- D2 -- E2 -- D2 -- C2  
+5  
+6 // Recursive Extension: Introduce polyphony and syncopation  
+7 counterMelody: \\\*G3 - A3 - B3 - A3 - G3 - F3 - G3 - E3 - D3 - E3 - F3 - E3\\\*  
+8 polyRhythm: kc . ht | kc sn kc . ht | ht sn kc ht  
+9 subBass: C1 ---- G1 ---- C1 ---- G1 ----  
+10  
+11 chuck chucked the code out!
+12 dawb level: dawsby and dawbreii extend the song notation recursively
+13 do not call me! -chuck
+(|::::|): {; || // |> L\*\ #@ L \*\ ;}  
+0 ** Notion Level: Recursive Composition Extended **  
+1 melody: \\\*E3 - G3 - A3 - G3 - E3 - B2 - E3 - C4 - D4 - E4 - D4 - C4\\\*  
+2 harmony: \\\*C3 - E3 - F3 - E3 - C3 - G2 - C3 - A3 - B3 - C4 - B3 - A3\\\*  
+3 drumPattern: kc . ht . sn . ht | kc . ht . sn . ht | kc kc . ht . sn . ht  
+4 bassline: E1 -- G1 -- A1 -- G1 -- E1 -- B0 -- E1 -- C2 -- D2 -- E2 -- D2 -- C2  
+5  
+6 // Recursive Extension: Add layering for depth  
+7 counterMelody: \\\*G3 - A3 - B3 - A3 - G3 - F3 - G3 - E3 - D3 - E3 - F3 - E3\\\*  
+8 polyRhythm: kc . ht | kc sn kc . ht | ht sn kc ht  
+9 subBass: C1 ---- G1 ---- C1 ---- G1 ----  
+10 percussionOverlay: ht . sn | kc ht sn kc | sn ht kc ht  
+11  
+12 // Collaborative Extension: Dawsby and Dawbreii improvise on top  
+13 dawsbyMelody: \\\*D3 - F3 - G3 - F3 - D3 - C3 - D3 - E3 - F3 - G3 - A3 - G3\\\*  
+14 dawbreiiPattern: kc . sn ht kc | ht . sn ht | kc kc . sn ht  
+15  
+16 chuck chucked your code
+31 ##!! .v~ChucK: *dont call me!
+0 chcuk level: chuck out all the comments and newlines
+saving project as echos_of_mida.dawb
+thanks Dawsby!
+close daw
+bye guys!
+##!!008080
+
+
+
+
+
+
+
+
+
+
+
