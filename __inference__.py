@@ -5,7 +5,7 @@ from transformers import GPT2LMHeadModel, GPT2Tokenizer
 app = Flask(__name__)
 
 # Load the fine-tuned model and tokenizer
-model_path = r"M:\fine_tuned_gpt2_Sublime_mains_3\checkpoint-1300"  # Replace with your model path
+model_path = r"M:\checkpoint-1300"  # Replace with your model path
 print("Loading the fine-tuned model...")
 model = GPT2LMHeadModel.from_pretrained(model_path)
 tokenizer = GPT2Tokenizer.from_pretrained(model_path)
